@@ -1,0 +1,28 @@
+{
+  "name": "De-Bux Chrome Extension",
+  "version": "1.0",
+  "devtools_page": "src/devtools.html",
+  "description": "React Redux Visualizer",
+  "permissions": ["tabs", "activeTab", "declarativeContent", "storage", "http://*/*", "https://*/*"],
+  "options_page": "src/options.html",
+  "background": {
+    "scripts": ["src/background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      // "16": "images/get_started16.png",
+      // "32": "images/get_started32.png",
+      // "48": "images/get_started48.png",
+      // "128": "images/get_started128.png"
+    }
+  },
+  "icons": {
+    // "16": "images/get_started16.png",
+    // "32": "images/get_started32.png",
+    // "48": "images/get_started48.png",
+    // "128": "images/get_started128.png"
+  },
+  "manifest_version": 2
+}
